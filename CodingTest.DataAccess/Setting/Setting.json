@@ -1,0 +1,6 @@
+﻿{
+  "Connection": {
+    "Settled": "Settled.Csv" ,
+    "UnSettled": "UnSettled.Csv" 
+  } 
+}
