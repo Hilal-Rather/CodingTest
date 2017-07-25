@@ -8,6 +8,6 @@ namespace CodingTest.Models
 {
     public class UnSettled : BaseClass
     {
-        public int ToWin { get; set; }
+        public uint ToWin { get; set; }
     }
 }

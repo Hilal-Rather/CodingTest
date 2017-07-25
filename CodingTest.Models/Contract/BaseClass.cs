@@ -11,6 +11,6 @@ namespace CodingTest.Models
         public string  Customer { get; set; }
         public string Event { get; set; }
         public string Participant { get; set; }
-        public string Stake { get; set; }
+        public uint Stake { get; set; }
     }
 }

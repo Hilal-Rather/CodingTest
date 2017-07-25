@@ -8,7 +8,7 @@ namespace CodingTest.DataAccess.Builder
 {
     internal sealed class Builder
     {
-        public static CodingTestContext BuildStripe()
+        public static CodingTestContext BuildTestContext()
         {
             return new CodingTestContext().Init();
         }

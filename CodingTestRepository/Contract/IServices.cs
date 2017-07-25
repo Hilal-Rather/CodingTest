@@ -9,11 +9,13 @@ namespace CodingTestRepository.Contract
 {
     public interface IServices
     {
-        Settled GetsettledBetHistory(); // Task 1 part (a)
-        UnSettled Unusual(); //Task 2 part (a) risky
+        List<Settled> GetsettledBetHistory(); // Task 1 part (a)
+        List<UnSettled> GetUnsettledBetHistory();//Task 2 part (a) risky
+        List<UnSettled> Unusual(string customerId); //Task 2 part (b) risky
 
-        UnSettled HighlyUnusual(); //Task 2 part (b) HighlyUnusual
-        UnSettled HighAmounts(); //Task 2 part (c) Amount > $1000
+        List<UnSettled> HighlyUnusual(string customerId); //Task 2 part (c) HighlyUnusual
+            
+        List<UnSettled> HighAmounts(); //Task 2 part (d) Amount > $1000
 
 
     }
